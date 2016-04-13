@@ -8,6 +8,6 @@ public:
 	~TJSLearningAgent();
 
 protected:
-
+	virtual Action act();
 };
 
