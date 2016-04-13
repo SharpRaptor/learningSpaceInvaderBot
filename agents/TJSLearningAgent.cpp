@@ -16,3 +16,14 @@ Action TJSLearningAgent::act()
 	cout << "Boo";
 	return choice(&available_actions);
 }
+
+
+void episode_end()
+{
+
+}
+
+Action episode_start()
+{
+
+}

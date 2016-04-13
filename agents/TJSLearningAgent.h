@@ -8,6 +8,10 @@ public:
 	~TJSLearningAgent();
 
 protected:
-	virtual Action act();
+	Action act();
+
+	void episode_end(void);
+
+	Action episode_start(void);
 };
 
